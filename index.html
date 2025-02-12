@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Web Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Interactive Web Page</h1>
+
+    <!-- Part 1: CSS3 Transitions and Animations -->
+    <section>
+        <h2>CSS3 Transitions</h2>
+        <button class="hover-button">Hover Me!</button>
+        <input type="text" class="focus-input" placeholder="Focus on me!">
+    </section>
+
+    <section>
+        <h2>CSS3 Animations</h2>
+        <div class="animated-banner">Welcome to the Web Page!</div>
+        <div class="loading-spinner"></div>
+    </section>
+
+    <!-- Part 2: JavaScript Functions -->
+    <section>
+        <h2>JavaScript Functions</h2>
+        <div>
+            <label for="width">Width:</label>
+            <input type="number" id="width" placeholder="Enter width">
+            <label for="height">Height:</label>
+            <input type="number" id="height" placeholder="Enter height">
+            <button id="calculate-area">Calculate Area</button>
+            <p id="area-result"></p>
+        </div>
+
+        <div>
+            <button id="toggle-modal-button">Toggle Modal</button>
+            <div id="modal" class="modal hidden">
+                <p>This is a modal. Click outside or the button to close it.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Part 3: Combining CSS Animations with JavaScript -->
+    <section>
+        <h2>Interactive Animation</h2>
+        <button id="animate-button">Click to Animate</button>
+        <div id="animated-box" class="animated-box"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
